@@ -1,1 +1,0 @@
-# Web-Application-for-Query-Answering-Using-RAG-and-Mixtral-8x7B
