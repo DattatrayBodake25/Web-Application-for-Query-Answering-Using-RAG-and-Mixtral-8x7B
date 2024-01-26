@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query Application</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Query Application</h1>
+        <form onsubmit="submitQuery(event);">
+            <label for="userQuery">Enter your query:</label>
+            <input type="text" id="userQuery" placeholder="Type your query here...">
+            <button type="submit">Submit</button>
+        </form>
+        <div id="answerContainer">
+            <h2>Answer:</h2>
+            <p id="answerText"></p>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/query.js') }}"></script>
+</body>
+</html>
