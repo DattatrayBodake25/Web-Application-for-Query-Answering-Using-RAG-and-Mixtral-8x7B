@@ -2,7 +2,7 @@
 from transformers import pipeline
 
 # Replace 'YOUR_HUGGING_FACE_API_KEY' with your actual API key
-HUGGING_FACE_API_KEY = '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'
+HUGGING_FACE_API_KEY = 'my_key'
 
 # Specify the local path to the RAG model folder
 RAG_MODEL_PATH = r"D:\AI Assignment\OmniValueSolutions\backend\facebookrag-sequence-nq"
